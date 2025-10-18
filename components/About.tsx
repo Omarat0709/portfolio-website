@@ -15,9 +15,9 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="min-h-screen flex items-center py-20 px-4 bg-gradient-to-br from-purple-50 via-white to-pink-50">
+    <section id="about" className="min-h-screen flex items-center py-20 px-4 bg-gray-50 dark:bg-gray-800/50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-12">
           About Me
         </h2>
         

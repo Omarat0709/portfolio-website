@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <section id="contact" className="min-h-screen flex items-center py-20 px-4 bg-gradient-to-br from-indigo-50 via-white to-blue-50">
+    <section id="contact" className="min-h-screen flex items-center py-20 px-4 bg-gray-50 dark:bg-gray-800/50">
       <div className="max-w-4xl mx-auto w-full">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-12">
           Get In Touch
         </h2>
 

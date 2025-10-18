@@ -7,43 +7,43 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full bg-white/90 backdrop-blur-md z-50 shadow-md">
+    <nav className="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-            Omar El Attar
+          <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
+            Portfolio
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             <Link
               href="#home"
-              className="text-gray-700 hover:text-blue-500 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Home
             </Link>
             <Link
               href="#about"
-              className="text-gray-700 hover:text-purple-500 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               About
             </Link>
             <Link
               href="#experience"
-              className="text-gray-700 hover:text-green-500 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Experience
             </Link>
             <Link
               href="#projects"
-              className="text-gray-700 hover:text-orange-500 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Projects
             </Link>
             <Link
               href="#contact"
-              className="text-gray-700 hover:text-indigo-500 transition-colors font-medium"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               Contact
             </Link>
