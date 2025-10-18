@@ -55,12 +55,12 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="min-h-screen py-20 px-4 bg-gray-50 dark:bg-gray-900">
+    <section id="projects" className="min-h-screen py-20 px-4 bg-gradient-to-br from-orange-50 via-white to-yellow-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-4">
           Featured Projects
         </h2>
-        <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           A collection of my work including web development, data analysis, and academic research projects.
         </p>
         
