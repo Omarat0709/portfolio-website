@@ -39,7 +39,7 @@ export default function Projects() {
       title: "Marvel API Character Scraper",
       description: "A Python web scraping application that retrieves Marvel character data from the Marvel API and exports it to Excel format. Users can search for specific characters and generate customized spreadsheets with comprehensive character information.",
       technologies: ["Python", "Marvel API", "Pandas", "Excel", "REST APIs"],
-      github: "https://github.com/yourusername/marvel-scraper",
+      github: "https://github.com/Omarat0709/marvel-scraper",
       demo: null,
       downloadLink: "/projects/marvel-sample-output.xlsx",
       category: "Data Analysis"
@@ -48,8 +48,8 @@ export default function Projects() {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with Next.js 14 and TypeScript. Features include dark mode support, smooth scrolling navigation, project showcase with video demonstrations, and mobile-first responsive design.",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-      github: "https://github.com/yourusername/portfolio-website",
-      demo: "https://yourportfolio.vercel.app",
+      github: "https://github.com/Omarat0709/portfolio-website",
+      demo: "https://portfolio-project-jwrcndsj1-omarat0709s-projects.vercel.app",
       category: "Web Development"
     },
   ];

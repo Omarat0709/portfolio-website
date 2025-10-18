@@ -25,9 +25,23 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                  <a href="mailto:ore30@bath.ac.uk" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
-                    ore30@bath.ac.uk
+                  <p className="text-sm text-gray-500 dark:text-gray-400">University Email</p>
+                  <a href="mailto:oea39@bath.ac.uk" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
+                    oea39@bath.ac.uk
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Personal Email</p>
+                  <a href="mailto:omarat0709@gmail.com" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
+                    omarat0709@gmail.com
                   </a>
                 </div>
               </div>
@@ -40,8 +54,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-400">GitHub</p>
-                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
-                    github.com/yourusername
+                  <a href="https://github.com/Omarat0709" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
+                    github.com/Omarat0709
                   </a>
                 </div>
               </div>
@@ -54,8 +68,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</p>
-                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
-                    linkedin.com/in/yourprofile
+                  <a href="https://www.linkedin.com/in/omar-el-attar-68a26223a" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400">
+                    linkedin.com/in/omar-el-attar
                   </a>
                 </div>
               </div>

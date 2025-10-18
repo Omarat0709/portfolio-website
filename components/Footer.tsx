@@ -11,7 +11,7 @@ export default function Footer() {
           
           <div className="flex gap-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Omarat0709"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -22,7 +22,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/omar-el-attar-68a26223a"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -33,7 +33,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="mailto:ore30@bath.ac.uk"
+              href="mailto:omarat0709@gmail.com"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="Email"
             >
